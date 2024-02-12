@@ -34,7 +34,7 @@ def hex_to_ip(hex_value):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python script.py <data_input>")
+        print("Usage: python3 bigip_cookie_decode.py <COOKIE VALUE>")
         sys.exit(1)
 
     data_input = sys.argv[1]
